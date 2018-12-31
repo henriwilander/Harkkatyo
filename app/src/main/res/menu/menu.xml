@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_own_profile"
+            android:title = "Own profile"/>
+        <item android:id="@+id/editProfile"
+            android:icon="@drawable/ic_edit_profile"
+            android:title = "Edit profile"/>
+        <item android:id="@+id/makeCommonReservation"
+            android:icon="@drawable/ic_own_reservations"
+            android:title = "Make Common Reservation"/>
+        <item android:id="@+id/makeGroupReservation"
+            android:icon="@drawable/ic_own_reservations"
+            android:title = "Make Group Reservation"/>
+        <item android:id="@+id/allReservations"
+            android:icon="@drawable/ic_reservations"
+            android:title = "View reservations"/>
+        <item android:id="@+id/editReservations"
+            android:icon="@drawable/ic_edit_profile"
+            android:title = "Edit reservations"/>
+        <item android:id="@+id/singUp"
+            android:icon="@drawable/ic_sing_up"
+            android:title = "Sing up for events"/>
+    </group>
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_own_profile"
+            android:title = "Default page"/>
+        <item android:id="@+id/editProfile"
+            android:icon="@drawable/ic_edit_profile"
+            android:title = "Manage users"/>
+        <item android:id="@+id/createUser"
+            android:icon="@drawable/ic_reservations"
+            android:title = "Create user"/>
+        <item android:id="@+id/createOnePurposeHall"
+            android:icon="@drawable/ic_hall"
+            android:title = "Create New One Purpose Hall"/>
+        <item android:id="@+id/createMultiPurposeHall"
+            android:icon="@drawable/ic_hall"
+            android:title = "Create New Multi Purpose Hall"/>
+        <item android:id="@+id/manageHalls"
+            android:icon="@drawable/ic_hall"
+            android:title = "Manage Halls"/>
+        <item android:id="@+id/makeCommonReservation"
+            android:icon="@drawable/ic_own_reservations"
+            android:title = "Make Common Reservation"/>
+        <item android:id="@+id/makeGroupReservation"
+            android:icon="@drawable/ic_own_reservations"
+            android:title = "Make Group Reservation"/>
+        <item android:id="@+id/allReservations"
+            android:icon="@drawable/ic_reservations"
+            android:title = "Manage reservations"/>
+    </group>
+
+</menu>
